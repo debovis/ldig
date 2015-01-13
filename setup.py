@@ -13,9 +13,7 @@ setup(name='ldig',
       author_email='author@author.com',
       url='https://github.com/debovis/ldig',
       license='BSD',
-      packages=find_packages(exclude=[]),
-      include_package_data=True,
-      zip_safe=False,
+      packages=['ldig'],
       install_requires=[
           # -*- Extra requirements: -*-
           'numpy',
